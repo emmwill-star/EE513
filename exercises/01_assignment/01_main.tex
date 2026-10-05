@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb,amsthm,amsfonts}
+\usepackage[margin=1in]{geometry}
+\usepackage{txfonts}
+\usepackage{float}
+\usepackage{pgffor}
+\usepackage{hyperref}
+\newcommand{\overunder}[2]{\mathrel{\operatorname*{\gtrless}_{#2}^{#1}}}
+% $\overunder{a}{v}$
+%  \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=1\linewidth]{images/.png}
+%     \caption{}
+%     \label{}
+% \end{figure}
+
+\title{513 Assignment 1}
+\author{Emmett Williamson}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\subsection*{Deliverable 1}
+ 
+\newcommand{\versionCaptions}{%
+    {First Cell},%
+    {Python Version},%
+    {Packages},%
+    {OpenCV}%
+}
+
+\foreach \figureCaption [count=\imageIndex from 1] in \versionCaptions{
+    \begin{figure}[H]
+    \centering
+        \includegraphics[width=.67\linewidth]{images/versions_\imageIndex.png}
+        \expandafter\caption\expandafter{\figureCaption}
+        \label{fig:version-\imageIndex}
+    \end{figure}
+}
+
+\subsection*{Deliverable 2}
+
+\href{https://github.com/emmwill-star/EE513}{Link to my repo} or https://github.com/emmwill-star/EE513 
+
+\subsection*{Deliverable 3}
+
+\subsection*{Deliverable 4}
+
+\subsection*{Deliverable 5}
+
+\subsection*{Deliverable 6}
+
+\subsection*{Deliverable 7}
+
+\subsection*{Deliverable 8}
+
+\subsection*{Deliverable 9}
+
+\subsection*{Deliverable 10}
+
+\subsection*{Deliverable 11}
+
+\subsection*{Deliverable 12}
+
+\subsection*{Deliverable 13}
+
+
+\end{document}

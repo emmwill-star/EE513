@@ -1,4 +1,14 @@
 # Byte-compiled / optimized / DLL files
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
 __pycache__/
 *.py[codz]
 *$py.class
@@ -10,6 +20,12 @@ __pycache__/
 *.code-workspace
 canvas
 
+exams
+
+latex
+
+# Assignments 
+exercises/01_assignment/images/*.png
 
 
 
