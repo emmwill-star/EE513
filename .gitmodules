@@ -1,0 +1,3 @@
+[submodule "projects/01_project"]
+	path = projects/01_project
+	url = https://github.com/emmwill-star/EE513-project-01.git
