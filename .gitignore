@@ -26,6 +26,10 @@ latex
 
 # Assignments 
 exercises/01_assignment/images/*.png
+exercises/01_assignment/images/*.dng
+exercises/01_assignment/images/*.jpeg
+exercises/01_assignment/01_main.pdf
+exercises/01_assignment/01_main.tex
 
 
 
