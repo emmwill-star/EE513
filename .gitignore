@@ -8,7 +8,7 @@
 *.out
 *.synctex.gz
 *.toc
-
+.github/agents
 __pycache__/
 *.py[codz]
 *$py.class
@@ -38,6 +38,13 @@ exercises/02_assignment/images/*.jpeg
 exercises/02_assignment/02_main.pdf
 exercises/02_assignment/02_main.tex
 
+# Assignments 
+exercises/03_assignment/images/*.png
+exercises/03_assignment/images/*.dng
+exercises/03_assignment/images/*.jpeg
+exercises/03_assignment/03_main.pdf
+exercises/03_assignment/03_main.tex
+exercises/helper/psu_imaging.py
 
 
 
