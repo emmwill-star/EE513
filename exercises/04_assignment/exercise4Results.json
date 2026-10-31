@@ -1,0 +1,100 @@
+{
+  "_README": "EE 513 Project 1. Copy this file into your repository as results.json and replace every value with your own measurement. Each entry is [value, uncertainty] in the units named by the key. Use null for anything you did not measure; do not delete keys, and do not invent an uncertainty you cannot defend.",
+  "camera": "exact LensModel string from the DNG EXIF",
+  "capture_app": "the app you used to write raw",
+  "cfa_pattern": "RGGB, BGGR, GRBG or GBRG",
+  "raw_width_px": 4032,
+  "raw_height_px": 3024,
+  "binned_from_higher_resolution_sensor": false,
+  "focal_length_px": [
+    0.0,
+    0.0
+  ],
+  "focal_length_mm": [
+    0.0,
+    0.0
+  ],
+  "principal_point_x_px": [
+    0.0,
+    0.0
+  ],
+  "principal_point_y_px": [
+    0.0,
+    0.0
+  ],
+  "distortion_k1": [
+    0.0,
+    0.0
+  ],
+  "distortion_k2": [
+    0.0,
+    0.0
+  ],
+  "distortion_p1": [
+    0.0,
+    0.0
+  ],
+  "distortion_p2": [
+    0.0,
+    0.0
+  ],
+  "reprojection_rms_px": [
+    0.0,
+    0.0
+  ],
+  "n_calibration_images_used": 0,
+  "checkerboard_square_mm_measured": [
+    0.0,
+    0.0
+  ],
+  "mtf50_center_cy_per_px": [
+    0.0,
+    0.0
+  ],
+  "mtf50_corner_mean_cy_per_px": [
+    0.0,
+    0.0
+  ],
+  "mtf50_corner_worst_cy_per_px": [
+    0.0,
+    0.0
+  ],
+  "conversion_gain_dn_per_e": [
+    0.0,
+    0.0
+  ],
+  "read_noise_e": [
+    0.0,
+    0.0
+  ],
+  "dark_current_e_per_s": [
+    0.0,
+    0.0
+  ],
+  "iso_of_noise_measurement": 0,
+  "black_level_dn": [
+    0.0,
+    0.0
+  ],
+  "white_level_dn": 0,
+  "vendor_noiseprofile_present": false,
+  "dynamic_range_stops": [
+    0.0,
+    0.0
+  ],
+  "dynamic_range_criterion": "state the convention you used, for example SNR = 1 at the low end",
+  "delta_e_metric": "CIEDE2000",
+  "colorchecker_reference_set": "ColorChecker24 - After November 2014",
+  "delta_e_mean_before_ccm": [
+    10.261361080931797,
+    0.17636244571794973
+  ],
+  "delta_e_mean_after_ccm": [
+    7.558115615136928,
+    0.17401717810971778
+  ],
+  "delta_e_worst_after_ccm": [
+    18.4630176700485,
+    0.20975478421510682
+  ]
+}

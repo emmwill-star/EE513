@@ -22,7 +22,7 @@ dependencies = [
   "matplotlib>=3.9",
   "pandas>=2.2",
   "tqdm>=4.66",
-  "opencv-contrib-python>=5.0",
+  "opencv-contrib-python==4.11.0.86",
   "scikit-image>=0.24",
   "imageio>=2.35",
   "tifffile>=2024.8.30",
@@ -33,6 +33,7 @@ dependencies = [
   "ipykernel>=6.29",
   "ipywidgets>=8.1",
   "pytest>=8.3",
+  "seaborn>=0.13.2",
 ]
 
 # Deferred to week 6, when lecture 11 introduces PyTorch. Held back because it
