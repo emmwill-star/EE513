@@ -23,6 +23,7 @@ canvas
 exams
 latex
 results.template.json
+.cortex
 
 exercises/helper/*.py
 !exercises/helper/utils.py
@@ -55,6 +56,12 @@ exercises/04_assignment/images/*.dng
 exercises/04_assignment/images/*.jpeg
 exercises/04_assignment/04_main.pdf
 exercises/04_assignment/04_main.tex
+
+exercises/05_assignment/images/*.png
+exercises/05_assignment/images/*.dng
+exercises/05_assignment/images/*.jpeg
+exercises/05_assignment/05_main.pdf
+exercises/05_assignment/05_main.tex
 
 
 # Distribution / packaging
